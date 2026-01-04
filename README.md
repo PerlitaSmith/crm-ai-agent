@@ -3,6 +3,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Generated Image January 04, 2026 - 3_37PM](https://github.com/user-attachments/assets/8ead2b5a-806a-4028-bb55-0b9f95732e5a)
 
 An intelligent CRM automation system that uses **Google Gemini AI** and **LangGraph** to analyze leads from amoCRM and provide actionable insights via Telegram. Features a human-in-the-loop architecture to ensure critical business decisions remain under manager control.
 
