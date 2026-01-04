@@ -175,35 +175,6 @@ if (budget >= 50000 && !hasActiveTasks) return true;
 
 ---
 
-## 🚀 Usage
-
-### Telegram Commands
-
-| Command | Description |
-|---------|-------------|
-| `/start` | Activate the bot |
-| `/today` | Daily dashboard (tasks + critical leads) |
-| `/hot` | VIP and important clients (100K+) |
-| `/risk` | Stuck leads (7+ days without activity) |
-| `/week` | Weekly statistics overview |
-| `/stats` | Agent performance metrics |
-
-### Natural Language
-
-The bot understands plain text:
-- "show me hot leads" → triggers `/hot`
-- "what's today's plan?" → triggers `/today`
-- "which deals are stuck?" → triggers `/risk`
-
-### Demo Scripts
-
-Create test leads for development:
-
-```bash
-npm run demo:create-leads
-```
-
----
 
 ## 📚 Documentation
 
